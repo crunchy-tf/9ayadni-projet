@@ -1,71 +1,26 @@
-# Calendar Scheduler - React Application Project
+# React + Express Calendar App
 
-Link https://taylorsam209.github.io/calendar-scheduler/
+This project is a simple calendar application built with React on the frontend and Express on the backend. It allows users to schedule, view, edit, and delete appointments.
 
-<p>• A front end web application built with React and the react-big-calendar library.</p>
-<p>• Material-ui library was utilized to create textfields for adding and editing appointments.</p>
-<p>• A single react component handles all the functionality of the calendar scheduler</p>
+## Features
 
-## Technologies Used:
+- View calendar with month, week, day, and agenda views.
+- Add new appointments with title, description, start time, and end time.
+- View details of existing appointments and edit them.
+- Delete existing appointments.
 
-<li>React</li>
-<li>react-big-calendar</li>
-<li>material-ui</li>
-<li>Moment JS</li>
+## Technologies Used
 
-## Views
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-front.PNG" width="700">
-</p> 
-<p align="center">
-    Front page with no appointments set.
-</p> 
+- Frontend: React, react-big-calendar, Material-UI
+- Backend: Express
+- Database: None (uses in-memory data)
+- Other: moment.js (for date formatting)
 
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-book.PNG" width="700">
-</p> 
-<p align="center">
-    Appointment booking modal with Material-UI
-</p> 
+## Getting Started
 
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-edit.PNG" width="700">
-</p> 
-<p align="center">
-    Appointment editing modal
-</p> 
+To get a local copy of this project up and running, follow these steps:
 
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-appointment.PNG" width="700">
-</p> 
-<p align="center">
-    Calendar view with appointments set.
-</p> 
+1. Clone this repository:
 
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-time.PNG" width="700">
-</p>
-<p align="center">
-    Material-UI Time Picker
-</p> 
-
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-agenda.PNG" width="700">
-</p> 
-<p align="center">
-    Agenda view that lists all appointments
-</p> 
-
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-ipad.PNG" width="700">
-</p> 
-<p align="center">
-    Calendar Scheduler as seen on an Ipad
-</p> 
+```bash
+git clone <repository-url>
